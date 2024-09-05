@@ -101,6 +101,48 @@ def get_html_content():
                         {generate_table_rows('rcr')}
                     </table>
                 </td>
+                <td class="inner-table">
+                    <table id="armeq">
+                        <tr>
+                            <th colspan="4">ARM Appeals</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('armeq')}
+                    </table>
+                </td>
+                <td class="inner-table">
+                    <table id="maa">
+                        <tr>
+                            <th colspan="4">MAA Appeals</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('maa')}
+                    </table>
+                </td>
+                <td class="inner-table">
+                    <table id="ltaeq">
+                        <tr>
+                            <th colspan="4">LTA Appeals</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('ltaeq')}
+                    </table>
+                </td>
                 <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
@@ -108,9 +150,9 @@ def get_html_content():
         <table class="outer-table">
             <tr>
                 <td class="inner-table">
-                    <table id="emails">
+                    <table id="atoz">
                         <tr>
-                            <th colspan="4">Emails</th>
+                            <th colspan="4">A to Z</th>
                         </tr>
                         <tr>
                             <th>Org</th>
@@ -118,13 +160,13 @@ def get_html_content():
                             <th>Age</th>
                             <th>Status</th>
                         </tr>
-                        {generate_table_rows('emails')}
+                        {generate_table_rows('atoz')}
                     </table>
                 </td>
                 <td class="inner-table">
-                    <table id="rcr">
+                    <table id="sgd">
                         <tr>
-                            <th colspan="4">CRT</th>
+                            <th colspan="4">Order Level</th>
                         </tr>
                         <tr>
                             <th>Org</th>
@@ -132,7 +174,49 @@ def get_html_content():
                             <th>Age</th>
                             <th>Status</th>
                         </tr>
-                        {generate_table_rows('rcr')}
+                        {generate_table_rows('sgd')}
+                    </table>
+                </td>
+                <td class="inner-table">
+                    <table id="ri">
+                        <tr>
+                            <th colspan="4">RI</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('ri')}
+                    </table>
+                </td>
+                <td class="inner-table">
+                    <table id="conc">
+                        <tr>
+                            <th colspan="4">ConcessionLevel</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('conc')}
+                    </table>
+                </td>
+                <td class="inner-table">
+                    <table id="acct">
+                        <tr>
+                            <th colspan="4">Account Level</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('acct')}
                     </table>
                 </td>
                 <!-- Add other tables here following the same pattern -->
@@ -142,9 +226,9 @@ def get_html_content():
         <table class="outer-table">
             <tr>
                 <td class="inner-table">
-                    <table id="emails">
+                    <table id="hrqsgd">
                         <tr>
-                            <th colspan="4">Emails</th>
+                            <th colspan="4">HRQ Order Level</th>
                         </tr>
                         <tr>
                             <th>Org</th>
@@ -152,13 +236,13 @@ def get_html_content():
                             <th>Age</th>
                             <th>Status</th>
                         </tr>
-                        {generate_table_rows('emails')}
+                        {generate_table_rows('hrqsgd')}
                     </table>
                 </td>
                 <td class="inner-table">
-                    <table id="rcr">
+                    <table id="hrqri">
                         <tr>
-                            <th colspan="4">CRT</th>
+                            <th colspan="4">HRQ RI</th>
                         </tr>
                         <tr>
                             <th>Org</th>
@@ -166,9 +250,38 @@ def get_html_content():
                             <th>Age</th>
                             <th>Status</th>
                         </tr>
-                        {generate_table_rows('rcr')}
+                        {generate_table_rows('hrqri')}
                     </table>
                 </td>
+                 <td class="inner-table">
+                    <table id="hrqconc">
+                        <tr>
+                            <th colspan="4">HRQ Concession</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('hrqconc')}
+                    </table>
+                </td>
+                 <td class="inner-table">
+                    <table id="hrqacct">
+                        <tr>
+                            <th colspan="4">HRQ Account Level</th>
+                        </tr>
+                        <tr>
+                            <th>Org</th>
+                            <th>In Queue</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                        </tr>
+                        {generate_table_rows('hrqacct')}
+                    </table>
+                </td>
+                 
                 <!-- Add other tables here following the same pattern -->
             </tr>
         </table>

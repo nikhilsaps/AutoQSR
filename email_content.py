@@ -3,28 +3,38 @@ import json
 def load_json_data():
     with open('data.json') as f:  # Replace 'data.json' with the path to your JSON file
         return json.load(f)
+
 def get_html_content():
     data = load_json_data()
     
-    # Define the organization lis
+    # Define the organization list
     org_list = [
         'US', 'CA', 'UK', 'IN', 'DE', 'FR', 'IT', 'ES', 'MX', 'BR', 'AU',
         'SG', 'JP', 'AE', 'SA', 'EG', 'NL', 'PL', 'SE', 'TR', 'BE', 'ZA'
     ]
 
+    def get_cluster_color(cluster):
+        if cluster == "need attention":
+            return "yellow"
+        elif cluster == "missed":
+            return "red"
+        else:
+            return "green"
+
     def generate_table_rows(key):
         rows = []
         for org in org_list:
             org_data = data.get(key, {}).get(org.lower(), {})
-            count = org_data.get('count', 'N/A')
-            age = org_data.get('age', 'N/A')
-            cluster = org_data.get('cluster', 'N/A')
+            count = org_data.get('count', '0')
+            age = org_data.get('age', '00:00')
+            cluster = org_data.get('cluster', '0')
+            cluster_color = get_cluster_color(cluster)
             rows.append(f"""
             <tr>
                 <td>{org}</td>
                 <td>{count}</td>
                 <td>{age}</td>
-                <td>{cluster}</td>
+                <td style="background-color: {cluster_color};">{cluster}</td>
             </tr>
             """)
         return "\n".join(rows)
@@ -253,7 +263,7 @@ def get_html_content():
                         {generate_table_rows('hrqri')}
                     </table>
                 </td>
-                 <td class="inner-table">
+                <td class="inner-table">
                     <table id="hrqconc">
                         <tr>
                             <th colspan="4">HRQ Concession</th>
@@ -267,7 +277,7 @@ def get_html_content():
                         {generate_table_rows('hrqconc')}
                     </table>
                 </td>
-                 <td class="inner-table">
+                <td class="inner-table">
                     <table id="hrqacct">
                         <tr>
                             <th colspan="4">HRQ Account Level</th>
@@ -281,7 +291,6 @@ def get_html_content():
                         {generate_table_rows('hrqacct')}
                     </table>
                 </td>
-                 
                 <!-- Add other tables here following the same pattern -->
             </tr>
         </table>

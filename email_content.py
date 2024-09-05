@@ -6,7 +6,7 @@ def load_json_data():
 def get_html_content():
     data = load_json_data()
     
-    # Define the organization list
+    # Define the organization lis
     org_list = [
         'US', 'CA', 'UK', 'IN', 'DE', 'FR', 'IT', 'ES', 'MX', 'BR', 'AU',
         'SG', 'JP', 'AE', 'SA', 'EG', 'NL', 'PL', 'SE', 'TR', 'BE', 'ZA'

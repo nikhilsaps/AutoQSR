@@ -1,41 +1,65 @@
 def get_html_content():
-    return """
+    values = ["us", "ca", "uk", "in", "de", "fr", "it", "es", "mx", "br", "au", "sg", "jp", "ae", "sa", "eg", "nl", "pl", "se", "tr", "be", "za"]
+    table_ids = ["emails", "rcr", "maa", "armeq", "ltaeq", "atoz", "sgd", "ri", "conc", "acct", "hrqsgd", "hrqri", "hrqconc", "hrqacct", "table15"]
+    table_titles = ["Emails", "CRT", "MAA Appeals", "ARM Appeals", "LTA Appeals", "A to Z", "Order Level", "RI", "Concession Level", "Account Level", "HRQ Order Level", "HRQ RI", "HRQ Concession", "HRQ Account Level", "Table 15"]
+
+    def generate_table(table_id, title):
+        return f"""
+        <td class="inner-table">
+            <table id="{table_id}">
+                <tr>
+                    <th colspan="4">{title}</th>
+                </tr>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                    <th>Header 3</th>
+                    <th>Header 4</th>
+                </tr>
+                {''.join(f'<tr><td>{value}</td><td>Cell 2</td><td>Cell 3</td><td>Cell 4</td></tr>' for value in values)}
+            </table>
+        </td>
+        """
+
+    tables_html = ''.join(generate_table(table_id, title) for table_id, title in zip(table_ids, table_titles))
+
+    return f"""
     <!DOCTYPE html>
     <html>
     <head>
         <style>
-            table {
+            table {{
                 width: 100%;
                 border-collapse: collapse;
-            }
-            table, th, td {
+            }}
+            table, th, td {{
                 border: 1px solid black;
-            }
-            th, td {
+            }}
+            th, td {{
                 padding: 10px;
                 text-align: left;
-            }
-            th {
+            }}
+            th {{
                 background-color: #f2f2f2;
-            }
-            tr:nth-child(even) {
+            }}
+            tr:nth-child(even) {{
                 background-color: #f2f2f2;
-            }
-            .outer-table {
+            }}
+            .outer-table {{
                 width: 100%;
                 border: none;
                 margin-bottom: 20px; /* Space between rows */
-            }
-            .inner-table {
+            }}
+            .inner-table {{
                 width: 18%; /* Adjust width to fit five tables in a row */
                 border: none;
                 display: inline-block;
                 vertical-align: top;
-            }
-            .outer-table tr {
+            }}
+            .outer-table tr {{
                 display: flex;
                 justify-content: space-between;
-            }
+            }}
         </style>
     </head>
     <body>
@@ -43,393 +67,21 @@ def get_html_content():
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>
-                <td class="inner-table">
-                    <table id="table1">
-                        <tr>
-                            <th colspan="4">Table 1</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table2">
-                        <tr>
-                            <th colspan="4">Table 2</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table3">
-                        <tr>
-                            <th colspan="4">Table 3</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table4">
-                        <tr>
-                            <th colspan="4">Table 4</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table5">
-                        <tr>
-                            <th colspan="4">Table 5</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
+                {tables_html[:5]}
             </tr>
         </table>
 
         <!-- Row 2 -->
         <table class="outer-table">
             <tr>
-                <td class="inner-table">
-                    <table id="table6">
-                        <tr>
-                            <th colspan="4">Table 6</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table7">
-                        <tr>
-                            <th colspan="4">Table 7</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table8">
-                        <tr>
-                            <th colspan="4">Table 8</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table9">
-                        <tr>
-                            <th colspan="4">Table 9</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table10">
-                        <tr>
-                            <th colspan="4">Table 10</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
+                {tables_html[5:10]}
             </tr>
         </table>
 
         <!-- Row 3 -->
         <table class="outer-table">
             <tr>
-                <td class="inner-table">
-                    <table id="table11">
-                        <tr>
-                            <th colspan="4">Table 11</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table12">
-                        <tr>
-                            <th colspan="4">Table 12</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table13">
-                        <tr>
-                            <th colspan="4">Table 13</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table14">
-                        <tr>
-                            <th colspan="4">Table 14</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="table15">
-                        <tr>
-                            <th colspan="4">Table 15</th>
-                        </tr>
-                        <tr>
-                            <th>Header 1</th>
-                            <th>Header 2</th>
-                            <th>Header 3</th>
-                            <th>Header 4</th>
-                        </tr>
-                        <tr>
-                            <td>Cell 1</td>
-                            <td>Cell 2</td>
-                            <td>Cell 3</td>
-                            <td>Cell 4</td>
-                        </tr>
-                        <tr>
-                            <td>Cell 5</td>
-                            <td>Cell 6</td>
-                            <td>Cell 7</td>
-                            <td>Cell 8</td>
-                        </tr>
-                    </table>
-                </td>
+                {tables_html[10:]}
             </tr>
         </table>
     </body>

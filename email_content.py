@@ -1,4 +1,28 @@
+import json
+
+def load_json(filename):
+    with open(filename, 'r') as file:
+        return json.load(file)
+
+def generate_table_rows(json_data, table_id):
+    table_html = ""
+    for key in json_data:
+        table_html += f'<tr><th colspan="4">{key.capitalize()}</th></tr>'
+        for country, details in json_data[key].items():
+            count = details.get('count', 'N/A')
+            age = details.get('age', 'N/A')
+            cluster = details.get('cluster', 'N/A')
+            table_html += f'<tr><td>{country.upper()}</td><td>{count}</td><td>{age}</td><td>{cluster}</td></tr>'
+    return table_html
+
 def get_html_content():
+    # Load JSON data
+    json_data = load_json('output.json')  # Adjust the path as needed
+    
+    # Generate table rows based on JSON data
+    emails_table_html = generate_table_rows(json_data.get('emails', {}), 'emails')
+    # Repeat for other tables if needed, e.g., 'conc', 'hrqconc', etc.
+
     return """
     <!DOCTYPE html>
     <html>
@@ -2086,9 +2110,9 @@ def get_html_content():
                     </table>
                 </td>
                 <td class="inner-table">
-                    <table id="table15">
+                    <table id="test">
                         <tr>
-                            <th colspan="4">Table 15</th>
+                            <th colspan="4">Test</th>
                         </tr>
                          <tr>
                             <th>Org</th>

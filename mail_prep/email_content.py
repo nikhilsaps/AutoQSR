@@ -27,7 +27,7 @@ def get_html_content():
             org_data = data.get(key, {}).get(org.lower(), {})
             count = org_data.get('count', '0')
             age = org_data.get('age', '00:00')
-            cluster = org_data.get('cluster', '0')
+            cluster = org_data.get('status', '0')
             cluster_color = get_cluster_color(cluster)
             rows.append(f"""
             <tr>

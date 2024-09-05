@@ -6,14 +6,24 @@ def load_json(filename):
 
 def generate_table_rows(json_data, table_id):
     table_html = ""
-    for key in json_data:
-        table_html += f'<tr><th colspan="4">{key.capitalize()}</th></tr>'
-        for country, details in json_data[key].items():
-            count = details.get('count', 'N/A')
-            age = details.get('age', 'N/A')
-            cluster = details.get('cluster', 'N/A')
-            table_html += f'<tr><td>{country.upper()}</td><td>{count}</td><td>{age}</td><td>{cluster}</td></tr>'
+    for key, value in json_data.items():
+        # Ensure value is a dictionary before proceeding
+        if isinstance(value, dict):
+            table_html += f'<tr><th colspan="4">{key.capitalize()}</th></tr>'
+            for country, details in value.items():
+                # Ensure details is a dictionary
+                if isinstance(details, dict):
+                    count = details.get('count', 'N/A')
+                    age = details.get('age', 'N/A')
+                    cluster = details.get('cluster', 'N/A')
+                    table_html += f'<tr><td>{country.upper()}</td><td>{count}</td><td>{age}</td><td>{cluster}</td></tr>'
+                else:
+                    table_html += f'<tr><td>{country.upper()}</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>'
+        else:
+            # If value is not a dictionary, handle it gracefully
+            table_html += f'<tr><td colspan="4">No data available for {key}</td></tr>'
     return table_html
+
 
 def get_html_content():
     # Load JSON data

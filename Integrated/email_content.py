@@ -295,6 +295,7 @@ def get_html_content():
                 </td>
             </tr>
         </table>
+        <h4>Regards,<br>WFM<h4>
     </body>
     </html>
     """

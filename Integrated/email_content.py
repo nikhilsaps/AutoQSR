@@ -14,9 +14,9 @@ def get_html_content():
     ]
 
     def get_cluster_color(cluster):
-        if cluster == "need attention":
+        if cluster == "Need attention":
             return "#FFD966"
-        elif cluster == "missed":
+        elif cluster == "Missed":
             return "#FF0000"
         else:
             return "#A9D08E"
@@ -26,7 +26,7 @@ def get_html_content():
         for org in org_list:
             org_data = data.get(key, {}).get(org.lower(), {})
             count = org_data.get('count', '0')
-            age = org_data.get('age', '00:00')
+            age = org_data.get('age', '00:00:00')
             cluster = org_data.get('status', 'in control')
             cluster_color = get_cluster_color(cluster)
             rows.append(f"""

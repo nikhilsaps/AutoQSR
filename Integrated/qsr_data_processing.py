@@ -27,36 +27,37 @@ def merge_and_process_data(data_file, type_dict_file):
         def seconds_to_hhmm(seconds):
             hours = seconds // 3600
             minutes = (seconds % 3600) // 60
-            return f"{hours:02}:{minutes:02}"
+            secs=seconds % 60
+            return f"{hours:02}:{minutes:02}:{secs:02}"
 
         # Function to determine the status based on type and age
         def determine_status(type_value, age_seconds):
             if type_value in ['emails', 'armeq', 'maa', 'ltaeq', 'rcr', 'atoz']:
                 if 64800 < age_seconds < 86400:
-                    return "need attention"
+                    return "Need attention"
                 elif age_seconds > 86400:
-                    return "missed"
+                    return "Missed"
             elif type_value in ['sgd', 'hrqsgd']:
                 if 14400 < age_seconds < 36000:
-                    return "need attention"
+                    return "Need attention"
                 elif age_seconds > 36000:
                     return "missed"
             elif type_value in ['ri', 'hrqri']:
                 if 28800 < age_seconds < 43200:
-                    return "need attention"
+                    return "Need attention"
                 elif age_seconds > 43200:
-                    return "missed"
+                    return "Missed"
             elif type_value in ['conc', 'hrqconc']:
                 if 201600 < age_seconds < 259200:
-                    return "need attention"
+                    return "Need attention"
                 elif age_seconds > 259200:
-                    return "missed"
+                    return "Missed"
             elif type_value in ['acct', 'hrqacct']:
                 if 345600 < age_seconds < 432000:
-                    return "need attention"
+                    return "Need attention"
                 elif age_seconds > 432000:
-                    return "missed"
-            return "in control"
+                    return "Missed"
+            return "In control"
 
         # Iterate over each unique 'Type' value
         for t in merged_df['Type'].unique():

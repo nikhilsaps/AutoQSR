@@ -15,11 +15,11 @@ def get_html_content():
 
     def get_cluster_color(cluster):
         if cluster == "need attention":
-            return "yellow"
-        elif cluster == "missed":
+            return "#FFD966"
+        elif cluster == "#FF0000":
             return "red"
         else:
-            return "green"
+            return "#A9D08E"
 
     def generate_table_rows(key):
         rows = []
@@ -52,11 +52,11 @@ def get_html_content():
                 border: 1px solid black;
             }}
             th, td {{
-                padding: 10px;
-                text-align: left;
+                padding: 2px;
+                text-align: center;
             }}
             th {{
-                background-color: #f2f2f2;
+                background-color: #00B050;
             }}
             tr:nth-child(even) {{
                 background-color: #f2f2f2;
@@ -64,7 +64,7 @@ def get_html_content():
             .outer-table {{
                 width: 100%;
                 border: none;
-                margin-bottom: 20px; /* Space between rows */
+                margin-bottom: 40px; /* Space between rows */
             }}
             .inner-table {{
                 width: 18%; /* Adjust width to fit five tables in a row */

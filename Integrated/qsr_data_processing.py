@@ -91,7 +91,7 @@ def merge_and_process_data(data_file, type_dict_file):
             json.dump(result, f, indent=4)
         
         QMessageBox.information(None, "Success", f"Output JSON file saved as {output_file}")
-        qsr_mail_prep()
+        qsr_mail.qsr_mail_prep()
 
     except Exception as e:
         QMessageBox.critical(None, "Error", f"An error occurred: {e}")

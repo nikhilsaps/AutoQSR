@@ -1,7 +1,7 @@
 import json
 
 def load_json_data():
-    with open('output/output.json') as f:  # Replace 'data.json' with the path to your JSON file
+    with open('output/output.json') as f:  # Replace 'output/output.json' with the path to your JSON file
         return json.load(f)
 
 def get_html_content():
@@ -16,8 +16,8 @@ def get_html_content():
     def get_cluster_color(cluster):
         if cluster == "need attention":
             return "#FFD966"
-        elif cluster == "#FF0000":
-            return "red"
+        elif cluster == "missed":
+            return "#FF0000"
         else:
             return "#A9D08E"
 
@@ -45,11 +45,11 @@ def get_html_content():
     <head>
         <style>
             table {{
-                width: 100%;
+                width: 94%;
                 border-collapse: collapse;
             }}
             table, th, td {{
-                border: 1px solid black;
+                border: 2px solid black;
             }}
             th, td {{
                 padding: 2px;
@@ -63,14 +63,18 @@ def get_html_content():
             }}
             .outer-table {{
                 width: 100%;
-                border: none;
-                margin-bottom: 40px; /* Space between rows */
+                border: 2px solid black;
+                
             }}
             .inner-table {{
-                width: 18%; /* Adjust width to fit five tables in a row */
+                width: 20%; /* Adjust width to fit five tables in a row */
                 border: none;
                 display: inline-block;
                 vertical-align: top;
+            
+            }}
+            .inner-table:last-child {{
+                margin-right: 0; /* Remove right margin from the last table */
             }}
             .outer-table tr {{
                 display: flex;
@@ -79,7 +83,7 @@ def get_html_content():
         </style>
     </head>
     <body>
-        <h1>Three Rows of Five Tables</h1>
+        <p>PFB the Queue Status Report </p>
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>
@@ -153,7 +157,6 @@ def get_html_content():
                         {generate_table_rows('ltaeq')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
         <!-- Row 2 -->
@@ -229,7 +232,6 @@ def get_html_content():
                         {generate_table_rows('acct')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
         <!-- Row 3 -->
@@ -291,7 +293,6 @@ def get_html_content():
                         {generate_table_rows('hrqacct')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
     </body>

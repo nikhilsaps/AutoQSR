@@ -134,7 +134,7 @@ trms_au_ari_email_pna_appeals_wrk_amz,fe,test,au
 trms_au_ari_email_qla_wrk_amz,fe,ltaeq,au
 trms_au_ari_email_rci_wrk_amz,fe,emails,au
 trms_au_ari_email_suspect_abuse_wrk_amz,fe,acct,au
-trms_au_ari_f3concessionsabuse_wrk_amz,fe,acct,au
+trms_au_ari_f3concessionsabuse_wrk_amz,fe,test,au
 trms_au_ari_high_risk_accinvestigation_wrk_amz,fe,hrqacct,au
 trms_au_ari_highvalueconcessionsabuseriskyorders_wrk_amz,fe,sgd,au
 trms_au_ari_in_transit_wrk_amz,fe,acct,au
@@ -274,7 +274,7 @@ trms_br_ari_email_pna_appeals_wrk_amz,ncl,ltaeq,br
 trms_br_ari_email_qla_wrk_amz,ncl,ltaeq,br
 trms_br_ari_email_rci_wrk_amz,ncl,emails,br
 trms_br_ari_email_suspect_abuse_wrk_amz,ncl,acct,br
-trms_br_ari_f3concessionsabuse_wrk_amz,ncl,acct,br
+trms_br_ari_f3concessionsabuse_wrk_amz,ncl,test,br
 trms_br_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,br
 trms_br_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,sgd,br
 trms_br_ari_in_transit_wrk_amz,ncl,acct,br
@@ -362,7 +362,7 @@ trms_ca_ari_email_pai_wrk_amz,eng,emails,ca
 trms_ca_ari_email_pna_appeals_wrk_amz,eng,test,ca
 trms_ca_ari_email_qla_wrk_amz,eng,ltaeq,ca
 trms_ca_ari_email_rci_wrk_amz,eng,emails,ca
-trms_ca_ari_f3concessionsabuse_wrk_amz,eng,acct,ca
+trms_ca_ari_f3concessionsabuse_wrk_amz,eng,test,ca
 trms_ca_ari_freshrefundapproval_wrk_amz,eng,ri,ca
 trms_ca_ari_high_risk_accinvestigation_wrk_amz,eng,hrqacct,ca
 trms_ca_ari_highvalueconcessionsabuseriskyorders_wrk_amz,eng,sgd,ca
@@ -475,7 +475,7 @@ trms_de_ari_email_rcr_wrk_amz,eu4,rcr,de
 trms_de_ari_email_rcw_wrk_amz,eu4,emails,de
 trms_de_ari_email_rqla_wrk_amz,eu4,test,de
 trms_de_ari_email_safet_referrals_wrk_amz,eu4,emails,de
-trms_de_ari_f3concessionsabuse_wrk_amz,eu4,acct,de
+trms_de_ari_f3concessionsabuse_wrk_amz,eu4,test,de
 trms_de_ari_freshrefundapproval_wrk_amz,eu4,ri,de
 trms_de_ari_highvalueconcessionsabuseriskyorders_wrk_amz,eu4,sgd,de
 trms_de_ari_hsi_concessionsabusecapdnrreferrals_wrk_amz,eu4,conc,de
@@ -663,7 +663,7 @@ trms_es_ari_email_pna_appeals_wrk_amz,eu4,ltaeq,es
 trms_es_ari_email_qla_wrk_amz,eu4,ltaeq,es
 trms_es_ari_email_rci_wrk_amz,eu4,emails,es
 trms_es_ari_email_rqla_wrk_amz,eu4,test,es
-trms_es_ari_f3concessionsabuse_wrk_amz,eu4,acct,es
+trms_es_ari_f3concessionsabuse_wrk_amz,eu4,test,es
 trms_es_ari_freshrefundapproval_wrk_amz,eu4,ri,es
 trms_es_ari_highvalueconcessionsabuseriskyorders_wrk_amz,eu4,sgd,es
 trms_es_ari_hsi_concessionsabusecapdnrreferrals_wrk_amz,eu4,conc,es
@@ -778,7 +778,7 @@ trms_fr_ari_email_qla_wrk_amz,eu4,ltaeq,fr
 trms_fr_ari_email_rci_wrk_amz,eu4,emails,fr
 trms_fr_ari_email_rcw_wrk_amz,eu4,emails,fr
 trms_fr_ari_email_rqla_wrk_amz,eu4,test,fr
-trms_fr_ari_f3concessionsabuse_wrk_amz,eu4,acct,fr
+trms_fr_ari_f3concessionsabuse_wrk_amz,eu4,test,fr
 trms_fr_ari_freshrefundapproval_wrk_amz,eu4,ri,fr
 trms_fr_ari_highvalueconcessionsabuseriskyorders_wrk_amz,eu4,sgd,fr
 trms_fr_ari_hsi_concessionsabusecapdnrreferrals_wrk_amz,eu4,conc,fr
@@ -901,7 +901,7 @@ trms_in_ari_email_suspect_abuse_caprwp_wrk_amz,in,conc,in
 trms_in_ari_email_suspect_cap_abuse_wrk_amz,in,conc,in
 trms_in_ari_email_undeliverable_referrals_wrk_amz,in,emails,in
 trms_in_ari_email_undeliverable_seller_referrals_wrk_amz,in,emails,in
-trms_in_ari_f3concessionsabuse_wrk_amz,in,acct,in
+trms_in_ari_f3concessionsabuse_wrk_amz,in,test,in
 trms_in_ari_freshrefundapproval_wrk_amz,in,ri,in
 trms_in_ari_high_risk_accinvestigation_wrk_amz,in,hrqacct,in
 trms_in_ari_highvalueconcessionsabuseriskyorders_wrk_amz,in,sgd,in
@@ -1007,7 +1007,7 @@ trms_it_ari_email_pna_appeals_wrk_amz,eu4,ltaeq,it
 trms_it_ari_email_qla_wrk_amz,eu4,ltaeq,it
 trms_it_ari_email_rci_wrk_amz,eu4,emails,it
 trms_it_ari_email_rqla_wrk_amz,eu4,test,it
-trms_it_ari_f3concessionsabuse_wrk_amz,eu4,acct,it
+trms_it_ari_f3concessionsabuse_wrk_amz,eu4,test,it
 trms_it_ari_freshrefundapproval_wrk_amz,eu4,ri,it
 trms_it_ari_highvalueconcessionsabuseriskyorders_wrk_amz,eu4,sgd,it
 trms_it_ari_hsi_concessionsabusecapdnrreferrals_wrk_amz,eu4,conc,it
@@ -1111,8 +1111,8 @@ trms_jp_ari_email_qla_zh_wrk_amz,fe,ltaeq,jp
 trms_jp_ari_email_rci_wrk_amz,fe,emails,jp
 trms_jp_ari_email_rqla_wrk_amz,fe,test,jp
 trms_jp_ari_email_suspect_abuse_cap_wrk_amz,fe,conc,jp
-trms_jp_ari_f3_ext_concessions_abuse_wrk_amz,fe,acct,jp
-trms_jp_ari_f3concessionsabuse_wrk_amz,fe,acct,jp
+trms_jp_ari_f3_ext_concessions_abuse_wrk_amz,fe,test,jp
+trms_jp_ari_f3concessionsabuse_wrk_amz,fe,test,jp
 trms_jp_ari_freshrefundapproval_wrk_amz,fe,ri,jp
 trms_jp_ari_high_risk_accinvestigation_wrk_amz,fe,hrqacct,jp
 trms_jp_ari_highvalueconcessionsabuseriskyorders_wrk_amz,fe,sgd,jp
@@ -1190,7 +1190,7 @@ trms_mx_ari_email_nsr_appeals_wrk_amz,ncl,emails,mx
 trms_mx_ari_email_pna_appeals_wrk_amz,ncl,ltaeq,mx
 trms_mx_ari_email_qla_wrk_amz,ncl,ltaeq,mx
 trms_mx_ari_email_rci_wrk_amz,ncl,emails,mx
-trms_mx_ari_f3concessionsabuse_wrk_amz,ncl,acct,mx
+trms_mx_ari_f3concessionsabuse_wrk_amz,ncl,test,mx
 trms_mx_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,mx
 trms_mx_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,sgd,mx
 trms_mx_ari_in_transit_wrk_amz,ncl,acct,mx
@@ -1268,7 +1268,7 @@ trms_nl_ari_email_qla_wrk_amz,ncl,ltaeq,nl
 trms_nl_ari_email_rci_wrk_amz,ncl,emails,nl
 trms_nl_ari_email_rqla_wrk_amz,ncl,test,nl
 trms_nl_ari_email_suspect_abuse_wrk_amz,ncl,acct,nl
-trms_nl_ari_f3concessionsabuse_wrk_amz,ncl,acct,nl
+trms_nl_ari_f3concessionsabuse_wrk_amz,ncl,test,nl
 trms_nl_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,nl
 trms_nl_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,sgd,nl
 trms_nl_ari_in_transit_wrk_amz,ncl,acct,nl
@@ -1423,7 +1423,7 @@ trms_sa_ari_email_rci_wrk_amz,ncl,emails,sa
 trms_sa_ari_email_rqla_wrk_amz,ncl,test,sa
 trms_sa_ari_email_sa_email_spam_wrk_amz,ncl,emails,sa
 trms_sa_ari_email_suspect_abuse_wrk_amz,ncl,test,sa
-trms_sa_ari_f3concessionsabuse_wrk_amz,ncl,acct,sa
+trms_sa_ari_f3concessionsabuse_wrk_amz,ncl,test,sa
 trms_sa_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,sa
 trms_sa_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,test,sa
 trms_sa_ari_in_transit_wrk_amz,ncl,acct,sa
@@ -1502,7 +1502,7 @@ trms_se_ari_email_qla_wrk_amz,ncl,ltaeq,se
 trms_se_ari_email_rci_wrk_amz,ncl,emails,se
 trms_se_ari_email_rqla_wrk_amz,ncl,test,se
 trms_se_ari_email_suspect_abuse_wrk_amz,ncl,acct,se
-trms_se_ari_f3concessionsabuse_wrk_amz,ncl,acct,se
+trms_se_ari_f3concessionsabuse_wrk_amz,ncl,test,se
 trms_se_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,se
 trms_se_ari_in_transit_wrk_amz,ncl,acct,se
 trms_se_ari_linkagerefundapproval_wrk_amz,ncl,ri,se
@@ -1575,8 +1575,8 @@ trms_sg_ari_email_qla_wrk_amz,fe,ltaeq,sg
 trms_sg_ari_email_rci_wrk_amz,fe,emails,sg
 trms_sg_ari_email_sg_email_spam_wrk_amz,fe,emails,sg
 trms_sg_ari_email_suspect_abuse_wrk_amz,fe,acct,sg
-trms_sg_ari_f3_ext_concessions_abuse_wrk_amz,fe,acct,sg
-trms_sg_ari_f3concessionsabuse_wrk_amz,fe,acct,sg
+trms_sg_ari_f3_ext_concessions_abuse_wrk_amz,fe,test,sg
+trms_sg_ari_f3concessionsabuse_wrk_amz,fe,test,sg
 trms_sg_ari_freshrefundapproval_wrk_amz,fe,ri,sg
 trms_sg_ari_high_risk_accinvestigation_wrk_amz,fe,hrqacct,sg
 trms_sg_ari_highvalueconcessionsabuseriskyorders_wrk_amz,fe,sgd,sg
@@ -1653,7 +1653,7 @@ trms_tr_ari_email_qla_wrk_amz,ncl,ltaeq,tr
 trms_tr_ari_email_rci_wrk_amz,ncl,emails,tr
 trms_tr_ari_email_suspect_abuse_wrk_amz,ncl,acct,tr
 trms_tr_ari_email_tr_email_spam_wrk_amz,ncl,emails,tr
-trms_tr_ari_f3concessionsabuse_wrk_amz,ncl,acct,tr
+trms_tr_ari_f3concessionsabuse_wrk_amz,ncl,test,tr
 trms_tr_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,tr
 trms_tr_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,sgd,tr
 trms_tr_ari_in_transit_wrk_amz,ncl,acct,tr
@@ -1766,7 +1766,7 @@ trms_uk_ari_email_rcw_wrk_amz,ncl,emails,uk
 trms_uk_ari_email_rqla_wrk_amz,ncl,test,uk
 trms_uk_ari_email_safet_referrals_wrk_amz,ncl,emails,uk
 trms_uk_ari_email_uk_email_spam_wrk_amz,ncl,emails,uk
-trms_uk_ari_f3concessionsabuse_wrk_amz,ncl,acct,uk
+trms_uk_ari_f3concessionsabuse_wrk_amz,ncl,test,uk
 trms_uk_ari_freshrefundapproval_wrk_amz,ncl,ri,uk
 trms_uk_ari_highrisk_lvrefundapproval_wrk_amz,ncl,hrqri,uk
 trms_uk_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,sgd,uk

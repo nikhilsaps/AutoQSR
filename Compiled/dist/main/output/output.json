@@ -1,0 +1,1480 @@
+{
+    "conc": {
+        "us": {
+            "count": 10338,
+            "age": "48:33:02",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 909,
+            "age": "48:32:04",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 547,
+            "age": "73:40:01",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "uk": {
+            "count": 1151,
+            "age": "10:04:27",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 316,
+            "age": "11:18:54",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 109,
+            "age": "11:16:57",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 264,
+            "age": "11:12:45",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 161,
+            "age": "11:12:58",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "in": {
+            "count": 18009,
+            "age": "59:04:21",
+            "cluster": "in",
+            "status": "Need attention"
+        }
+    },
+    "test": {
+        "us": {
+            "count": 3740,
+            "age": "1203:36:06",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 33,
+            "age": "1062:54:11",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 10,
+            "age": "1062:54:07",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "br": {
+            "count": 354,
+            "age": "254:28:08",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "au": {
+            "count": 12,
+            "age": "762:40:25",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 47,
+            "age": "815:59:34",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "sg": {
+            "count": 15,
+            "age": "196:49:23",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 350,
+            "age": "264:54:03",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 38,
+            "age": "1373:31:41",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "sa": {
+            "count": 416,
+            "age": "921:31:11",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 1303,
+            "age": "699:34:24",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 171,
+            "age": "264:13:04",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 111,
+            "age": "264:37:24",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 147,
+            "age": "264:13:04",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 139,
+            "age": "409:39:22",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "be": {
+            "count": 26,
+            "age": "693:15:27",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 41,
+            "age": "686:57:48",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "pl": {
+            "count": 26,
+            "age": "679:10:18",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "in": {
+            "count": 499,
+            "age": "1237:16:10",
+            "cluster": "in",
+            "status": "In control"
+        },
+        "se": {
+            "count": 18,
+            "age": "915:26:37",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 32,
+            "age": "697:06:51",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "acct": {
+        "us": {
+            "count": 5259,
+            "age": "115:47:07",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "ca": {
+            "count": 906,
+            "age": "107:03:04",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "mx": {
+            "count": 331,
+            "age": "107:04:15",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "br": {
+            "count": 1051,
+            "age": "107:34:58",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "au": {
+            "count": 300,
+            "age": "81:18:17",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 645,
+            "age": "81:32:56",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "sg": {
+            "count": 44,
+            "age": "70:20:45",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 2156,
+            "age": "95:05:23",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 594,
+            "age": "111:00:49",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "sa": {
+            "count": 229,
+            "age": "107:09:30",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "eg": {
+            "count": 1281,
+            "age": "95:07:53",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 3777,
+            "age": "106:08:27",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 1230,
+            "age": "107:07:32",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "fr": {
+            "count": 857,
+            "age": "104:47:22",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "it": {
+            "count": 1063,
+            "age": "107:19:07",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "be": {
+            "count": 513,
+            "age": "109:13:06",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "za": {
+            "count": 2,
+            "age": "59:12:16",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 416,
+            "age": "109:01:36",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "pl": {
+            "count": 331,
+            "age": "108:50:51",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "in": {
+            "count": 2500,
+            "age": "109:25:42",
+            "cluster": "in",
+            "status": "Need attention"
+        },
+        "se": {
+            "count": 237,
+            "age": "104:46:07",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "tr": {
+            "count": 322,
+            "age": "106:18:53",
+            "cluster": "ncl",
+            "status": "Need attention"
+        }
+    },
+    "emails": {
+        "us": {
+            "count": 1145,
+            "age": "25:39:01",
+            "cluster": "eng",
+            "status": "Missed"
+        },
+        "ca": {
+            "count": 158,
+            "age": "25:39:05",
+            "cluster": "eng",
+            "status": "Missed"
+        },
+        "mx": {
+            "count": 27,
+            "age": "18:16:26",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "br": {
+            "count": 62,
+            "age": "18:47:00",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "au": {
+            "count": 12,
+            "age": "05:42:02",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 6,
+            "age": "05:34:34",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 507,
+            "age": "20:21:35",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "ae": {
+            "count": 82,
+            "age": "20:14:59",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "sa": {
+            "count": 33,
+            "age": "20:16:59",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "eg": {
+            "count": 359,
+            "age": "19:46:54",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "de": {
+            "count": 470,
+            "age": "14:28:57",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 120,
+            "age": "14:21:21",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 249,
+            "age": "14:08:38",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 188,
+            "age": "14:14:39",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "be": {
+            "count": 19,
+            "age": "12:55:59",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "za": {
+            "count": 1,
+            "age": "03:19:01",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 18,
+            "age": "12:54:35",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "pl": {
+            "count": 14,
+            "age": "12:59:44",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "in": {
+            "count": 1108,
+            "age": "16:44:07",
+            "cluster": "in",
+            "status": "In control"
+        },
+        "se": {
+            "count": 5,
+            "age": "13:21:56",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 128,
+            "age": "13:47:24",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "atoz": {
+        "us": {
+            "count": 565,
+            "age": "16:59:36",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 44,
+            "age": "15:38:57",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 14,
+            "age": "06:21:36",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "br": {
+            "count": 30,
+            "age": "06:32:43",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 1,
+            "age": "00:27:23",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 203,
+            "age": "13:36:27",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 8,
+            "age": "11:04:11",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "sa": {
+            "count": 17,
+            "age": "11:57:38",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 314,
+            "age": "13:37:50",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 72,
+            "age": "13:31:39",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 187,
+            "age": "13:35:50",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 64,
+            "age": "13:20:05",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "be": {
+            "count": 21,
+            "age": "11:51:43",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 37,
+            "age": "13:03:31",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "in": {
+            "count": 17,
+            "age": "06:00:29",
+            "cluster": "in",
+            "status": "In control"
+        },
+        "se": {
+            "count": 10,
+            "age": "11:53:10",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 18,
+            "age": "11:06:52",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "esc": {
+        "us": {
+            "count": 340,
+            "age": "79:38:32",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "br": {
+            "count": 1,
+            "age": "67:11:38",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "au": {
+            "count": 4,
+            "age": "30:48:18",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 52,
+            "age": "77:30:27",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 9,
+            "age": "59:01:13",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "sa": {
+            "count": 3,
+            "age": "62:39:51",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 9,
+            "age": "63:33:23",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 34,
+            "age": "79:05:32",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 12,
+            "age": "62:14:35",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 10,
+            "age": "62:51:48",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 18,
+            "age": "77:17:24",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "za": {
+            "count": 1,
+            "age": "65:13:11",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 4,
+            "age": "60:35:44",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "in": {
+            "count": 71,
+            "age": "77:32:42",
+            "cluster": "in",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 2,
+            "age": "33:33:37",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "hrqconc": {
+        "us": {
+            "count": 317,
+            "age": "58:17:06",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "ca": {
+            "count": 74,
+            "age": "57:00:48",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "uk": {
+            "count": 79,
+            "age": "62:26:17",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "de": {
+            "count": 32,
+            "age": "61:33:43",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 2,
+            "age": "04:06:38",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 29,
+            "age": "60:57:15",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "it": {
+            "count": 19,
+            "age": "62:22:41",
+            "cluster": "eu4",
+            "status": "Need attention"
+        }
+    },
+    "maa": {
+        "us": {
+            "count": 253,
+            "age": "22:34:26",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "ca": {
+            "count": 12,
+            "age": "21:42:26",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "mx": {
+            "count": 20,
+            "age": "18:49:02",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "br": {
+            "count": 24,
+            "age": "18:50:35",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "au": {
+            "count": 1,
+            "age": "02:20:06",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 18,
+            "age": "06:27:58",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 169,
+            "age": "24:51:40",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "ae": {
+            "count": 14,
+            "age": "20:32:38",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "sa": {
+            "count": 13,
+            "age": "20:11:22",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "eg": {
+            "count": 314,
+            "age": "24:51:05",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "de": {
+            "count": 28,
+            "age": "21:55:21",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 14,
+            "age": "24:23:21",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "fr": {
+            "count": 139,
+            "age": "24:39:03",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "it": {
+            "count": 49,
+            "age": "24:49:49",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "nl": {
+            "count": 2,
+            "age": "23:14:34",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "pl": {
+            "count": 7,
+            "age": "21:42:03",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "se": {
+            "count": 1,
+            "age": "04:14:16",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 1,
+            "age": "15:59:43",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "ri": {
+        "us": {
+            "count": 230,
+            "age": "04:02:45",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 4,
+            "age": "01:36:00",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 2,
+            "age": "00:44:11",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "br": {
+            "count": 17,
+            "age": "00:45:22",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 195,
+            "age": "07:45:19",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 3,
+            "age": "00:57:30",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "sa": {
+            "count": 1,
+            "age": "01:08:05",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 71,
+            "age": "01:08:50",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 80,
+            "age": "09:09:36",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 30,
+            "age": "09:15:21",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "fr": {
+            "count": 66,
+            "age": "09:00:47",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "it": {
+            "count": 35,
+            "age": "08:42:20",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "be": {
+            "count": 1,
+            "age": "00:31:40",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 1,
+            "age": "00:15:28",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "se": {
+            "count": 1,
+            "age": "00:28:50",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 1,
+            "age": "01:26:18",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "armeq": {
+        "us": {
+            "count": 166,
+            "age": "24:28:02",
+            "cluster": "eng",
+            "status": "Missed"
+        },
+        "ca": {
+            "count": 13,
+            "age": "22:01:35",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "mx": {
+            "count": 3,
+            "age": "24:00:35",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "br": {
+            "count": 8,
+            "age": "23:49:01",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "au": {
+            "count": 1,
+            "age": "05:42:49",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 1,
+            "age": "06:12:18",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 469,
+            "age": "24:58:55",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "ae": {
+            "count": 90,
+            "age": "22:35:53",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "sa": {
+            "count": 32,
+            "age": "24:41:28",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "eg": {
+            "count": 210,
+            "age": "25:03:38",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "de": {
+            "count": 208,
+            "age": "24:58:51",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "es": {
+            "count": 35,
+            "age": "24:55:31",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "fr": {
+            "count": 100,
+            "age": "24:56:34",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "it": {
+            "count": 63,
+            "age": "24:41:31",
+            "cluster": "eu4",
+            "status": "Missed"
+        },
+        "be": {
+            "count": 1,
+            "age": "03:00:52",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 16,
+            "age": "22:30:17",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "pl": {
+            "count": 39,
+            "age": "24:40:59",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "in": {
+            "count": 96,
+            "age": "21:02:06",
+            "cluster": "in",
+            "status": "Need attention"
+        },
+        "se": {
+            "count": 3,
+            "age": "24:16:36",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "tr": {
+            "count": 9,
+            "age": "24:34:19",
+            "cluster": "ncl",
+            "status": "Missed"
+        }
+    },
+    "hrqsgd": {
+        "us": {
+            "count": 74,
+            "age": "04:34:33",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "mx": {
+            "count": 1,
+            "age": "01:57:54",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 17,
+            "age": "02:59:48",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 33,
+            "age": "03:09:25",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 17,
+            "age": "02:43:56",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 4,
+            "age": "01:47:52",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 22,
+            "age": "03:56:32",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 5,
+            "age": "01:20:49",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "pl": {
+            "count": 2,
+            "age": "01:14:08",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "rcr": {
+        "us": {
+            "count": 59,
+            "age": "06:37:07",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 5,
+            "age": "06:17:33",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 6,
+            "age": "06:32:49",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "br": {
+            "count": 12,
+            "age": "06:25:19",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "au": {
+            "count": 1,
+            "age": "00:16:41",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 11,
+            "age": "03:25:02",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 1,
+            "age": "00:58:00",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 3,
+            "age": "02:31:26",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 2,
+            "age": "02:14:05",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 1,
+            "age": "03:02:40",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 3,
+            "age": "02:18:34",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 2,
+            "age": "02:43:16",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 1,
+            "age": "01:46:27",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "in": {
+            "count": 36,
+            "age": "03:18:42",
+            "cluster": "in",
+            "status": "In control"
+        }
+    },
+    "hrqacct": {
+        "us": {
+            "count": 45,
+            "age": "103:34:06",
+            "cluster": "eng",
+            "status": "Need attention"
+        },
+        "ca": {
+            "count": 8,
+            "age": "69:46:00",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "mx": {
+            "count": 12,
+            "age": "94:25:38",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "br": {
+            "count": 1,
+            "age": "20:44:32",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 41,
+            "age": "104:30:34",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "eg": {
+            "count": 5,
+            "age": "86:30:07",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 34,
+            "age": "99:56:21",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 40,
+            "age": "97:08:23",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "fr": {
+            "count": 60,
+            "age": "99:15:09",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "it": {
+            "count": 43,
+            "age": "106:12:13",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "be": {
+            "count": 1,
+            "age": "75:55:18",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 1,
+            "age": "06:24:18",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "pl": {
+            "count": 1,
+            "age": "22:09:05",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "se": {
+            "count": 1,
+            "age": "83:34:04",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "hrqri": {
+        "us": {
+            "count": 237,
+            "age": "07:46:16",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "ca": {
+            "count": 3,
+            "age": "04:25:23",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "br": {
+            "count": 1,
+            "age": "03:48:46",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "au": {
+            "count": 20,
+            "age": "09:51:00",
+            "cluster": "fe",
+            "status": "Need attention"
+        },
+        "jp": {
+            "count": 165,
+            "age": "09:57:13",
+            "cluster": "fe",
+            "status": "Need attention"
+        },
+        "uk": {
+            "count": 1176,
+            "age": "12:00:28",
+            "cluster": "ncl",
+            "status": "Missed"
+        },
+        "ae": {
+            "count": 19,
+            "age": "10:41:20",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "sa": {
+            "count": 33,
+            "age": "11:03:59",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "eg": {
+            "count": 84,
+            "age": "11:16:22",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "de": {
+            "count": 20,
+            "age": "11:23:21",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "es": {
+            "count": 53,
+            "age": "11:35:22",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "fr": {
+            "count": 90,
+            "age": "11:33:00",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "it": {
+            "count": 37,
+            "age": "11:27:42",
+            "cluster": "eu4",
+            "status": "Need attention"
+        },
+        "nl": {
+            "count": 1,
+            "age": "01:54:10",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "pl": {
+            "count": 6,
+            "age": "10:26:05",
+            "cluster": "ncl",
+            "status": "Need attention"
+        },
+        "tr": {
+            "count": 1,
+            "age": "06:15:49",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "sgd": {
+        "us": {
+            "count": 14,
+            "age": "01:05:02",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "br": {
+            "count": 1,
+            "age": "00:00:39",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "ae": {
+            "count": 1,
+            "age": "00:26:00",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "sa": {
+            "count": 2,
+            "age": "00:59:01",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 7,
+            "age": "00:20:26",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "nl": {
+            "count": 1,
+            "age": "00:07:41",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 2,
+            "age": "00:36:03",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "armri": {
+        "us": {
+            "count": 4,
+            "age": "01:58:55",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 4,
+            "age": "01:29:09",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "ltaeq": {
+        "us": {
+            "count": 1,
+            "age": "00:03:42",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "eg": {
+            "count": 1,
+            "age": "00:00:41",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "tr": {
+            "count": 2,
+            "age": "00:49:33",
+            "cluster": "ncl",
+            "status": "In control"
+        }
+    },
+    "ltaacct": {
+        "ca": {
+            "count": 29,
+            "age": "740:52:09",
+            "cluster": "eng",
+            "status": "In control"
+        },
+        "jp": {
+            "count": 5,
+            "age": "588:01:03",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "in": {
+            "count": 103,
+            "age": "740:52:14",
+            "cluster": "in",
+            "status": "In control"
+        }
+    },
+    "ltaneq": {
+        "jp": {
+            "count": 5,
+            "age": "68:04:03",
+            "cluster": "fe",
+            "status": "In control"
+        },
+        "uk": {
+            "count": 50,
+            "age": "68:20:44",
+            "cluster": "ncl",
+            "status": "In control"
+        },
+        "de": {
+            "count": 78,
+            "age": "96:46:39",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "es": {
+            "count": 1,
+            "age": "96:42:52",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "fr": {
+            "count": 4,
+            "age": "68:11:27",
+            "cluster": "eu4",
+            "status": "In control"
+        },
+        "it": {
+            "count": 9,
+            "age": "68:24:19",
+            "cluster": "eu4",
+            "status": "In control"
+        }
+    }
+}

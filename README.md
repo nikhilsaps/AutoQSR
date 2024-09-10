@@ -1,1 +1,3 @@
 # AutoQSR
+
+updated the typedict

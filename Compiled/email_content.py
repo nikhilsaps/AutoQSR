@@ -44,16 +44,23 @@ def get_html_content():
     <html>
     <head>
         <style>
+            body {{
+                font-family: Arial, sans-serif;
+            }}
             table {{
-                width: 94%;
+                width: 400px; /* Fixed width for the table */
                 border-collapse: collapse;
+                table-layout: fixed; /* Ensures cells and columns are fixed size */
             }}
             table, th, td {{
                 border: 2px solid black;
             }}
             th, td {{
-                padding: 2px;
+                padding: 8px; /* Adjust padding as needed */
                 text-align: center;
+                overflow: hidden; /* Ensures text does not overflow */
+                text-overflow: ellipsis; /* Adds ellipsis for overflowed text */
+                white-space: nowrap; /* Prevents text wrapping */
             }}
             th {{
                 background-color: #00B050;
@@ -63,22 +70,14 @@ def get_html_content():
             }}
             .outer-table {{
                 width: 100%;
-                border: 2px solid black;
-                
+                border: none;
+                margin-bottom: 20px; /* Space between rows */
             }}
             .inner-table {{
-                width: 20%; /* Adjust width to fit five tables in a row */
-                border: none;
+                width: 400px; /* Fixed width for inner tables */
+                border: 2px solid black;
                 display: inline-block;
                 vertical-align: top;
-            
-            }}
-            .inner-table:last-child {{
-                margin-right: 0; /* Remove right margin from the last table */
-            }}
-            .outer-table tr {{
-                display: flex;
-                justify-content: space-between;
             }}
         </style>
     </head>
@@ -299,3 +298,4 @@ def get_html_content():
     </body>
     </html>
     """
+

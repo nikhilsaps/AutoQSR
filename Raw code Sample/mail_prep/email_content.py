@@ -1,7 +1,7 @@
 import json
 
 def load_json_data():
-    with open('data.json') as f:  # Replace 'data.json' with the path to your JSON file
+    with open('data.json') as f:  # Replace 'output/output.json' with the path to your JSON file
         return json.load(f)
 
 def get_html_content():
@@ -14,20 +14,20 @@ def get_html_content():
     ]
 
     def get_cluster_color(cluster):
-        if cluster == "need attention":
-            return "yellow"
-        elif cluster == "missed":
-            return "red"
+        if cluster == "Need attention":
+            return "#FFD966"
+        elif cluster == "Missed":
+            return "#FF0000"
         else:
-            return "green"
+            return "#A9D08E"
 
     def generate_table_rows(key):
         rows = []
         for org in org_list:
             org_data = data.get(key, {}).get(org.lower(), {})
             count = org_data.get('count', '0')
-            age = org_data.get('age', '00:00')
-            cluster = org_data.get('status', '0')
+            age = org_data.get('age', '00:00:00')
+            cluster = org_data.get('status', 'in control')
             cluster_color = get_cluster_color(cluster)
             rows.append(f"""
             <tr>
@@ -44,19 +44,26 @@ def get_html_content():
     <html>
     <head>
         <style>
+            body {{
+                font-family: Arial, sans-serif;
+            }}
             table {{
-                width: 100%;
+                width: 200px; /* Fixed width for the table */
                 border-collapse: collapse;
+                table-layout: fixed; /* Ensures cells and columns are fixed size */
             }}
             table, th, td {{
-                border: 1px solid black;
+                border: 2px solid black;
             }}
             th, td {{
-                padding: 10px;
-                text-align: left;
+                padding: 8px; /* Adjust padding as needed */
+                text-align: center;
+                overflow: hidden; /* Ensures text does not overflow */
+                text-overflow: ellipsis; /* Adds ellipsis for overflowed text */
+                white-space: nowrap; /* Prevents text wrapping */
             }}
             th {{
-                background-color: #f2f2f2;
+                background-color: #00B050;
             }}
             tr:nth-child(even) {{
                 background-color: #f2f2f2;
@@ -67,19 +74,15 @@ def get_html_content():
                 margin-bottom: 20px; /* Space between rows */
             }}
             .inner-table {{
-                width: 18%; /* Adjust width to fit five tables in a row */
-                border: none;
+                width: 300px; /* Fixed width for inner tables */
+                border: 2px solid black;
                 display: inline-block;
                 vertical-align: top;
-            }}
-            .outer-table tr {{
-                display: flex;
-                justify-content: space-between;
             }}
         </style>
     </head>
     <body>
-        <h1>Three Rows of Five Tables</h1>
+        <p>PFB the Queue Status Report </p>
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>
@@ -153,7 +156,6 @@ def get_html_content():
                         {generate_table_rows('ltaeq')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
         <!-- Row 2 -->
@@ -229,7 +231,6 @@ def get_html_content():
                         {generate_table_rows('acct')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
         <!-- Row 3 -->
@@ -291,9 +292,10 @@ def get_html_content():
                         {generate_table_rows('hrqacct')}
                     </table>
                 </td>
-                <!-- Add other tables here following the same pattern -->
             </tr>
         </table>
+        <h4>Regards,<br>WFM<h4>
     </body>
     </html>
     """
+

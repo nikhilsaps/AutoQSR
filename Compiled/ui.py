@@ -4,6 +4,7 @@ from file_utils import load_file
 from qsr_data_processing import merge_and_process_data
 from email_window import EmailWindow  # Import the new EmailWindow class
 import os
+import invqsr_mail # Import the invqsr module
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -57,6 +58,23 @@ class MainWindow(QWidget):
         layout.addWidget(self.email_button, alignment=Qt.AlignmentFlag.AlignCenter)
         self.email_button.clicked.connect(self.open_email_window)
 
+        # New INVQSR Button
+        self.invqsr_button = QPushButton("INVQSR", self)
+        self.invqsr_button.setStyleSheet("""
+            QPushButton {
+                background-color: #FFC107;
+                color: white;
+                border-radius: 15px;
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+            QPushButton:hover {
+                background-color: #ffca28;
+            }
+        """)
+        layout.addWidget(self.invqsr_button, alignment=Qt.AlignmentFlag.AlignCenter)
+        self.invqsr_button.clicked.connect(self.run_invqsr)
+
         # Spacer to push items down to top-center
         spacer_bottom = QSpacerItem(20, 40, QSizePolicy.Minimum, QSizePolicy.Expanding)
         layout.addItem(spacer_bottom)
@@ -90,3 +108,10 @@ class MainWindow(QWidget):
     def open_email_window(self):
         self.email_window = EmailWindow()
         self.email_window.show()
+
+    def run_invqsr(self):
+        try:
+            invqsr_mail.invqsr_mail_prep()  # Call the invqsr_mail function from invqsr.py
+            QMessageBox.information(self, "Success", "INVQSR mail process completed.")
+        except Exception as e:
+            QMessageBox.critical(self, "Error", f"An error occurred: {str(e)}")

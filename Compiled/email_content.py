@@ -45,18 +45,20 @@ def get_html_content():
     <head>
         <style>
             body {{
-                font-family: Arial, sans-serif;
+                font-family: Calibri, sans-serif;
+                text-size :10sp;
             }}
             table {{
                 width: 400px; /* Fixed width for the table */
                 border-collapse: collapse;
+                padding:10px;
                 table-layout: fixed; /* Ensures cells and columns are fixed size */
             }}
             table, th, td {{
                 border: 2px solid black;
             }}
             th, td {{
-                padding: 8px; /* Adjust padding as needed */
+                padding: 4px; /* Adjust padding as needed */
                 text-align: center;
                 overflow: hidden; /* Ensures text does not overflow */
                 text-overflow: ellipsis; /* Adds ellipsis for overflowed text */

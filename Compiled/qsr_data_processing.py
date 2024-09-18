@@ -42,7 +42,7 @@ def merge_and_process_data(data_file, type_dict_file):
                     return "Need attention"
                 elif age_seconds > 36000:
                     return "missed"
-            elif type_value in ['ri', 'hrqri']:
+            elif type_value in ['ri', 'hrqri','esc','armri']:
                 if 28800 < age_seconds < 43200:
                     return "Need attention"
                 elif age_seconds > 43200:

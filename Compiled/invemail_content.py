@@ -222,62 +222,6 @@ def get_html_content():
             </tr>
         </table>
         <!-- Row 3 -->
-        <table class="outer-table">
-            <tr>
-                <td class="inner-table">
-                    <table id="hrqsgd">
-                        <tr>
-                            <th colspan="4">HRQ Order Level</th>
-                        </tr>
-                        <tr>
-                            <th>Org</th>
-                            <th>In Queue</th>
-                            <th>Status</th>
-                        </tr>
-                        {generate_table_rows('hrqsgd')}
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="hrqri">
-                        <tr>
-                            <th colspan="4">HRQ RI</th>
-                        </tr>
-                        <tr>
-                            <th>Org</th>
-                            <th>In Queue</th>
-                            <th>Status</th>
-                        </tr>
-                        {generate_table_rows('hrqri')}
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="hrqconc">
-                        <tr>
-                            <th colspan="4">HRQ Concession</th>
-                        </tr>
-                        <tr>
-                            <th>Org</th>
-                            <th>In Queue</th>
-                            <th>Status</th>
-                        </tr>
-                        {generate_table_rows('hrqconc')}
-                    </table>
-                </td>
-                <td class="inner-table">
-                    <table id="hrqacct">
-                        <tr>
-                            <th colspan="4">HRQ Account Level</th>
-                        </tr>
-                        <tr>
-                            <th>Org</th>
-                            <th>In Queue</th>
-                            <th>Status</th>
-                        </tr>
-                        {generate_table_rows('hrqacct')}
-                    </table>
-                </td>
-            </tr>
-        </table>
         <h4>Regards,<br>WFM<h4>
     </body>
     </html>

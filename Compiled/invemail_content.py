@@ -81,6 +81,7 @@ def get_html_content():
     </head>
     <body>
         <p>PFB the Queue Status Report </p>
+        <p>Note: Please note that Queuing would be based on prioritization not as per the Shared  table. </p>
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>

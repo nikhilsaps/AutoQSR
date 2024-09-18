@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import os
 from PySide6.QtWidgets import QMessageBox
-import qsr_mail
+
 
 def merge_and_process_data(data_file, type_dict_file):
     """Merge data from data_file with type_dict_file and process the merged data."""
@@ -42,7 +42,7 @@ def merge_and_process_data(data_file, type_dict_file):
                     return "Need attention"
                 elif age_seconds > 36000:
                     return "missed"
-            elif type_value in ['ri', 'hrqri']:
+            elif type_value in ['ri', 'hrqri','esc','armri']:
                 if 28800 < age_seconds < 43200:
                     return "Need attention"
                 elif age_seconds > 43200:
@@ -92,7 +92,7 @@ def merge_and_process_data(data_file, type_dict_file):
             json.dump(result, f, indent=4)
         
         QMessageBox.information(None, "Success", f"Output JSON file saved as {output_file}")
-        qsr_mail.qsr_mail_prep()
+        
 
     except Exception as e:
         QMessageBox.critical(None, "Error", f"An error occurred: {e}")

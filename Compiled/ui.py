@@ -3,6 +3,7 @@ from PySide6.QtCore import Qt
 from file_utils import load_file
 from qsr_data_processing import merge_and_process_data
 import os
+import qsr_mail
 import invqsr_mail
 import armriqsr_mail 
 import escqsr_mail # Import the invqsr module
@@ -124,6 +125,7 @@ class MainWindow(QWidget):
 
         # Merge and process the data, and save to output JSON
         merge_and_process_data(data_file, type_dict_file)
+        qsr_mail.qsr_mail_prep()
 
 
     def run_invqsr(self):

@@ -4,8 +4,19 @@ def load_json_data():
     with open('output/output.json') as f:  # Replace 'output/output.json' with the path to your JSON file
         return json.load(f)
 
+def sum_counts(json_data):    
+    for key in json_data.keys():
+        total_count = sum(region['count'] for region in json_data[key].values())
+        result[key] = total_count
+        
+    return result
+
+result = {}
+
+
 def get_html_content():
     data = load_json_data()
+    result = sum_counts(data)
     
     # Define the organization list
     org_list = [
@@ -85,6 +96,7 @@ def get_html_content():
     </head>
     <body>
         <p>PFB the Queue Status Report </p>
+        <p> The overall volume in emails is  {result}
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>

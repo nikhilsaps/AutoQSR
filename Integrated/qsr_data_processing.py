@@ -91,7 +91,7 @@ def merge_and_process_data(data_file, type_dict_file):
         with open(output_file, 'w') as f:
             json.dump(result, f, indent=4)
         
-        QMessageBox.information(None, "Success", f"Output JSON file saved as {output_file}")
+        # QMessageBox.information(None, "Success", f"Output JSON file saved as {output_file}")
         
 
     except Exception as e:

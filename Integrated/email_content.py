@@ -62,7 +62,7 @@ def get_html_content():
             table {{
                 width: 400px; /* Fixed width for the table */
                 border-collapse: collapse;
-                padding:10px;
+                padding:4px;
                 table-layout: fixed; /* Ensures cells and columns are fixed size */
             }}
             table, th, td {{
@@ -95,8 +95,11 @@ def get_html_content():
         </style>
     </head>
     <body>
-        <p>PFB the Queue Status Report </p>
-        <p> The overall volume in emails is  {result}
+        <h4>PFB the Queue Status Report </h4>
+        <p>&emsp; The overall volume in CRT is  {result['rcr']}.</p>
+        <p>&emsp; The overall volume in Emails is  {result['emails']}.</p>
+        <p>&emsp; The overall volume in ARM appeals is  {result['armeq']}. </p>
+        <p>&emsp; The overall volume in MAA Emails is  {result['maa']}. </p>
         <!-- Row 1 -->
         <table class="outer-table">
             <tr>

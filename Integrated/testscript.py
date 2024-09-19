@@ -39,6 +39,7 @@ while True:
     latest_csv = find_latest_csv()
     
     if latest_csv and check_csv_file(latest_csv):
+        
         print(f"Found valid CSV file: {latest_csv}")
         dummy.teste()
     

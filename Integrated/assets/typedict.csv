@@ -83,7 +83,7 @@ trms_ae_ari_spi_threatabuse_wrk_amz,ncl,test,ae
 trms_ae_ari_trustedsellerreferral_wrk_amz,ncl,acct,ae
 trms_ae_email_ari_lastword_wrk_amz,ncl,emails,ae
 trms_ae_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,ae
-trms_ae_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,ae
+trms_ae_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,ae
 trms_au_ari_acclinkageinvestigation_wrk_amz,fe,acct,au
 trms_au_ari_afn_account_investigation_wrk_amz,fe,acct,au
 trms_au_ari_afn_highvalue_refundapproval_wrk_amz,fe,ri,au
@@ -162,7 +162,7 @@ trms_au_ari_task_projectvigilance_wrk_amz,fe,test,au
 trms_au_ari_trustedsellerreferral_wrk_amz,fe,acct,au
 trms_au_email_ari_lastword_wrk_amz,fe,emails,au
 trms_au_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,fe,atoz,au
-trms_au_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,acct,au
+trms_au_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,test,au
 trms_be_ari_abuse_qtylimit_queue_wrk_amz,ncl,sgd,be
 trms_be_ari_accountlinkageinvestigation_wrk_amz,ncl,acct,be
 trms_be_ari_afn_highvalue_refundapproval_wrk_amz,ncl,ri,be
@@ -300,7 +300,7 @@ trms_br_ari_spi_threatabuse_wrk_amz,ncl,acct,br
 trms_br_ari_trustedsellerreferral_wrk_amz,ncl,acct,br
 trms_br_email_ari_lastword_wrk_amz,ncl,emails,br
 trms_br_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,br
-trms_br_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,br
+trms_br_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,br
 trms_ca_ari_abconcessionsabuse_wrk_amz,eng,acct,ca
 trms_ca_ari_acclinkageinvestigation_wrk_amz,eng,acct,ca
 trms_ca_ari_afn_account_investigation_wrk_amz,eng,acct,ca
@@ -356,7 +356,7 @@ trms_ca_ari_email_gc_refund_wrk_amz,eng,emails,ca
 trms_ca_ari_email_maa_emails_wrk_amz,eng,maa,ca
 trms_ca_ari_email_mfn_emails_wrk_amz,eng,emails,ca
 trms_ca_ari_email_neat_wrk_amz,eng,emails,ca
-trms_ca_ari_email_nsr_appeal_wrk_amz,eng,emails,ca
+trms_ca_ari_email_nsr_appeal_wrk_amz,eng,test,ca
 trms_ca_ari_email_ofm_wrk_amz,eng,emails,ca
 trms_ca_ari_email_pai_wrk_amz,eng,emails,ca
 trms_ca_ari_email_pna_appeals_wrk_amz,eng,test,ca
@@ -396,7 +396,7 @@ trms_ca_ari_spi_threatabuse_wrk_amz,eng,acct,ca
 trms_ca_ari_trustedsellerreferral_wrk_amz,eng,acct,ca
 trms_ca_email_ari_lastword_wrk_amz,eng,emails,ca
 trms_ca_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eng,atoz,ca
-trms_ca_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eng,acct,ca
+trms_ca_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eng,test,ca
 trms_de_ari_abconcessionsabuse_wrk_amz,eu4,acct,de
 trms_de_ari_abdrop_ship_abuse_referrals_wrk_amz,eu4,ltaneq,de
 trms_de_ari_acclinkageinvestigation_wrk_amz,eu4,acct,de
@@ -511,7 +511,7 @@ trms_de_ari_spi_threatabuse_wrk_amz,eu4,acct,de
 trms_de_ari_trustedsellerreferral_wrk_amz,eu4,acct,de
 trms_de_email_ari_lastword_wrk_amz,eu4,emails,de
 trms_de_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eu4,atoz,de
-trms_de_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,acct,de
+trms_de_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,test,de
 trms_eg_ari_abuse_qtylimit_queue_wrk_amz,ncl,sgd,eg
 trms_eg_ari_account_link_age_investigation_wrk_amz,ncl,acct,eg
 trms_eg_ari_afn_account_investigation_wrk_amz,ncl,acct,eg
@@ -558,7 +558,7 @@ trms_eg_ari_email_ofm_wrk_amz,ncl,emails,eg
 trms_eg_ari_email_qla_wrk_amz,ncl,ltaeq,eg
 trms_eg_ari_email_rci_wrk_amz,ncl,emails,eg
 trms_eg_ari_email_rqla_wrk_amz,ncl,test,eg
-trms_eg_ari_email_suspect_abuse_wrk_amz,ncl,test,eg
+trms_eg_ari_email_suspect_abuse_wrk_amz,ncl,acct,eg
 trms_eg_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,eg
 trms_eg_ari_highrisk_lvrefundapproval_wrk_amz,ncl,hrqri,eg
 trms_eg_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,test,eg
@@ -699,7 +699,7 @@ trms_es_ari_spi_threatabuse_wrk_amz,eu4,acct,es
 trms_es_ari_trustedsellerreferral_wrk_amz,eu4,acct,es
 trms_es_email_ari_lastword_wrk_amz,eu4,emails,es
 trms_es_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eu4,atoz,es
-trms_es_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,acct,es
+trms_es_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,test,es
 trms_fr_ari_abconcessionsabuse_wrk_amz,eu4,acct,fr
 trms_fr_ari_abdrop_ship_abuse_referrals_wrk_amz,eu4,ltaneq,fr
 trms_fr_ari_acclinkageinvestigation_wrk_amz,eu4,acct,fr
@@ -814,7 +814,7 @@ trms_fr_ari_spi_threatabuse_wrk_amz,eu4,acct,fr
 trms_fr_ari_trustedsellerreferral_wrk_amz,eu4,acct,fr
 trms_fr_email_ari_lastword_wrk_amz,eu4,emails,fr
 trms_fr_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eu4,atoz,fr
-trms_fr_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,acct,fr
+trms_fr_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,test,fr
 trms_in_amazonpay_email_cashload_abuse_wrk_amz,in,test,in
 trms_in_ari_abconcessionsabuse_wrk_amz,in,acct,in
 trms_in_ari_acclinkageinvestigation_wrk_amz,in,acct,in
@@ -853,7 +853,7 @@ trms_in_ari_concessions_abuse_rr_wrk_amz,in,acct,in
 trms_in_ari_concessionsabuse_flrreferrals_wrk_amz,in,acct,in
 trms_in_ari_concessionsabusecapdnrreferrals_wrk_amz,in,conc,in
 trms_in_ari_concessionsabusecapefmdrreferrals_wrk_amz,in,conc,in
-trms_in_ari_concessionsabusecapfreshreferrals_wrk_amz,in,conc,in
+trms_in_ari_concessionsabusecapfreshreferrals_wrk_amz,in,test,in
 trms_in_ari_concessionsabusecappmreferrals_wrk_amz,in,conc,in
 trms_in_ari_concessionsabusecaprrreferrals_wrk_amz,in,conc,in
 trms_in_ari_concessionsabusecaprwpreferrals_wrk_amz,in,conc,in
@@ -928,7 +928,7 @@ trms_in_ari_spi_threatabuse_wrk_amz,in,acct,in
 trms_in_ari_trustedsellerreferral_wrk_amz,in,acct,in
 trms_in_email_ari_lastword_wrk_amz,in,emails,in
 trms_in_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,in,atoz,in
-trms_in_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,in,acct,in
+trms_in_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,in,test,in
 trms_it_ari_abconcessionsabuse_wrk_amz,eu4,acct,it
 trms_it_ari_abdrop_ship_abuse_referrals_wrk_amz,eu4,ltaneq,it
 trms_it_ari_acclinkageinvestigation_wrk_amz,eu4,acct,it
@@ -1043,7 +1043,7 @@ trms_it_ari_spi_threatabuse_wrk_amz,eu4,acct,it
 trms_it_ari_trustedsellerreferral_wrk_amz,eu4,acct,it
 trms_it_email_ari_lastword_wrk_amz,eu4,emails,it
 trms_it_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eu4,atoz,it
-trms_it_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,acct,it
+trms_it_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eu4,test,it
 trms_jp_ari_abdrop_ship_abuse_referrals_wrk_amz,fe,ltaneq,jp
 trms_jp_ari_acclinkageinvestigation_wrk_amz,fe,acct,jp
 trms_jp_ari_afn_account_investigation_wrk_amz,fe,acct,jp
@@ -1141,7 +1141,7 @@ trms_jp_ari_spi_threatabuse_wrk_amz,fe,acct,jp
 trms_jp_ari_trustedsellerreferral_wrk_amz,fe,acct,jp
 trms_jp_email_ari_lastword_wrk_amz,fe,emails,jp
 trms_jp_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,fe,atoz,jp
-trms_jp_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,acct,jp
+trms_jp_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,test,jp
 trms_mx_ari_acclinkageinvestigation_wrk_amz,ncl,acct,mx
 trms_mx_ari_afn_account_investigation_wrk_amz,ncl,acct,mx
 trms_mx_ari_afn_highvalue_refundapproval_wrk_amz,ncl,ri,mx
@@ -1216,7 +1216,7 @@ trms_mx_ari_spi_threatabuse_wrk_amz,ncl,acct,mx
 trms_mx_ari_trustedsellerreferral_wrk_amz,ncl,acct,mx
 trms_mx_email_ari_lastword_wrk_amz,ncl,emails,mx
 trms_mx_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,mx
-trms_mx_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,mx
+trms_mx_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,mx
 trms_nl_ari_acclinkageinvestigation_wrk_amz,ncl,acct,nl
 trms_nl_ari_afn_account_investigation_wrk_amz,ncl,acct,nl
 trms_nl_ari_afn_highvalue_refundapproval_wrk_amz,ncl,ri,nl
@@ -1296,7 +1296,7 @@ trms_nl_ari_spi_threatabuse_wrk_amz,ncl,acct,nl
 trms_nl_ari_trustedsellerreferral_wrk_amz,ncl,acct,nl
 trms_nl_email_ari_lastword_wrk_amz,ncl,emails,nl
 trms_nl_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,nl
-trms_nl_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,nl
+trms_nl_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,nl
 trms_pl_ari_abuse_qtylimit_queue_wrk_amz,ncl,sgd,pl
 trms_pl_ari_account_link_age_investigation_wrk_amz,ncl,acct,pl
 trms_pl_ari_afn_account_investigation_wrk_amz,ncl,acct,pl
@@ -1422,7 +1422,7 @@ trms_sa_ari_email_qla_wrk_amz,ncl,ltaeq,sa
 trms_sa_ari_email_rci_wrk_amz,ncl,emails,sa
 trms_sa_ari_email_rqla_wrk_amz,ncl,test,sa
 trms_sa_ari_email_sa_email_spam_wrk_amz,ncl,emails,sa
-trms_sa_ari_email_suspect_abuse_wrk_amz,ncl,test,sa
+trms_sa_ari_email_suspect_abuse_wrk_amz,ncl,acct,sa
 trms_sa_ari_f3concessionsabuse_wrk_amz,ncl,test,sa
 trms_sa_ari_high_risk_accinvestigation_wrk_amz,ncl,hrqacct,sa
 trms_sa_ari_highvalueconcessionsabuseriskyorders_wrk_amz,ncl,test,sa
@@ -1450,7 +1450,7 @@ trms_sa_ari_spi_threatabuse_wrk_amz,ncl,test,sa
 trms_sa_ari_trustedsellerreferral_wrk_amz,ncl,acct,sa
 trms_sa_email_ari_lastword_wrk_amz,ncl,emails,sa
 trms_sa_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,sa
-trms_sa_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,sa
+trms_sa_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,sa
 trms_se_ari_abuse_qtylimit_queue_wrk_amz,ncl,sgd,se
 trms_se_ari_acclinkageinvestigation_wrk_amz,ncl,acct,se
 trms_se_ari_afn_account_investigation_wrk_amz,ncl,acct,se
@@ -1602,7 +1602,7 @@ trms_sg_ari_spi_threatabuse_wrk_amz,fe,acct,sg
 trms_sg_ari_trustedsellerreferral_wrk_amz,fe,acct,sg
 trms_sg_email_ari_lastword_wrk_amz,fe,emails,sg
 trms_sg_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,fe,atoz,sg
-trms_sg_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,acct,sg
+trms_sg_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,fe,test,sg
 trms_tr_ari_acclinkageinvestigation_wrk_amz,ncl,acct,tr
 trms_tr_ari_afn_account_investigation_wrk_amz,ncl,acct,tr
 trms_tr_ari_afn_highvalue_refundapproval_wrk_amz,ncl,ri,tr
@@ -1680,7 +1680,7 @@ trms_tr_ari_spi_threatabuse_wrk_amz,ncl,acct,tr
 trms_tr_ari_trustedsellerreferral_wrk_amz,ncl,acct,tr
 trms_tr_email_ari_lastword_wrk_amz,ncl,emails,tr
 trms_tr_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,tr
-trms_tr_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,tr
+trms_tr_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,tr
 trms_uk_ari_abconcessionsabuse_wrk_amz,ncl,acct,uk
 trms_uk_ari_abdrop_ship_abuse_referrals_wrk_amz,ncl,ltaneq,uk
 trms_uk_ari_acclinkageinvestigation_wrk_amz,ncl,acct,uk
@@ -1805,7 +1805,7 @@ trms_uk_ari_task_projectvigilance_wrk_amz,ncl,test,uk
 trms_uk_ari_trustedsellerreferral_wrk_amz,ncl,acct,uk
 trms_uk_email_ari_lastword_wrk_amz,ncl,emails,uk
 trms_uk_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,ncl,atoz,uk
-trms_uk_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,acct,uk
+trms_uk_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,ncl,test,uk
 trms_us_ari_abconcessionsabuse_wrk_amz,eng,acct,us
 trms_us_ari_abdrop_ship_abuse_referrals_wrk_amz,eng,ltaneq,us
 trms_us_ari_abuse_service_chargebacks_wrk_amz,eng,acct,us
@@ -1950,7 +1950,7 @@ trms_us_ari_trustedsellerreferral_wrk_amz,eng,acct,us
 trms_us_ari_ucc_investigations_wrk_amz,eng,test,us
 trms_us_email_ari_lastword_wrk_amz,eng,emails,us
 trms_us_pi_ari_claims_atoz_ari_abuse_abc_wrk_amz,eng,atoz,us
-trms_us_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eng,acct,us
+trms_us_pi_ari_trms_pi_buyer_abuse_referral_wrk_amz,eng,test,us
 trms_us_pi_atoz_comp_ari_abuse_claim_wrk_amz,eng,atoz,us
 trms_za_ari_afnrefundapproval_wrk_amz,ncl,ri,za
 trms_za_ari_buyercancelsriskyorders_wrk_amz,ncl,sgd,za
